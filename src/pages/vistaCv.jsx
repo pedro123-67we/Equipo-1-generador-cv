@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export const VistaCv = () => {
 return (
     <div>
