@@ -7,6 +7,7 @@ import Inicio from './pages/inicio';
 import Registro from './pages/registro'
 import GeneradorCv from './pages/Generador-cv';
 import VistaCv from './pages/vistaCv';
+// import Navbar from './pages/navbar';
 
 
 
@@ -32,8 +33,10 @@ function App() {
               </Route>
               <Route path ="/inicio" element={<Inicio />}>
               </Route>
+             
             </Routes>
       </div>
+      <Inicio/>
     </Router>
   )
 }
