@@ -11,14 +11,12 @@ import {Link} from 'react-router-dom'
           src=""
           alt="logo"
         ></img>
-        
       </a>
       <div className="header-right">
       <Link to="/generador">Generador</Link> 
       <Link to="/vistaCv">CV</Link> 
-       
+    
       </div>
-
     </div>
   
   </div>
