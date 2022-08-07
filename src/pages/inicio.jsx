@@ -18,7 +18,9 @@ import {Link} from 'react-router-dom'
       <Link to="/vistaCv">CV</Link> 
 
       </div>
+      
     </div>
+
   
   </div>
     )
