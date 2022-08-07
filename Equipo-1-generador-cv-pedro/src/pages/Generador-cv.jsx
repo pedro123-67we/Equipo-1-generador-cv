@@ -7,9 +7,10 @@ const GeneradorCv= ()=>(
             <div className="container-generador">
                 <label htmlFor="">Nombre:</label>
                 <input type={'text'} />
-                
+
                 <label htmlFor="">Apellidos:</label>
                 <input type={'text'} />
+                
                 <label htmlFor="">Carrera:</label>
                 <input type={'text'}/>
                 <label htmlFor="">Email:</label>
