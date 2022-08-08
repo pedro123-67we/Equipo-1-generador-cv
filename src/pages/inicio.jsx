@@ -23,7 +23,6 @@ const Navbar = () => {
         <Link className="nav-link active" to="/vistaCv">CV</Link> 
         </li>
         
-     
       </ul>
     </div>
   </div>
