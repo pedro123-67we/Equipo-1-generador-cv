@@ -1,0 +1,32 @@
+{
+    "email":{
+        "email": "Email "
+    },
+    "pass":{
+        "pass": "Password"
+    },
+    "ingre":{
+        "ingre":"Get into"
+    },
+    "reg":{
+        "reg":"Sing Up "
+    },
+    "write":{
+        "con":"Enter your password"
+    },
+    "wirtee":{
+        "ema":"Enter your email"
+    },
+    "name":{
+        "nom":"Name"
+    },
+    "apelli":{
+        "appe":"Surnames"
+    },
+    "cell":{
+        "phone":"Cell phone"
+    },
+    "save":{
+        "save": "Save"
+    }
+}
