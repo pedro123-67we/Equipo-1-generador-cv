@@ -281,6 +281,18 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@types/jquery-deferred@^0.3.0":
+  "integrity" "sha512-QpOMjSm4rI4Kc57LRDAWlNtwze4KrD8niPqaYuxVnFREAKrKSrrP0vtE9hew1Kr9KB3xjc/Uq1/gfSHGCuce7Q=="
+  "resolved" "https://registry.npmjs.org/@types/jquery-deferred/-/jquery-deferred-0.3.0.tgz"
+  "version" "0.3.0"
+
+"@types/jquery@^3.5.14":
+  "integrity" "sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg=="
+  "resolved" "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.14.tgz"
+  "version" "3.5.14"
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
@@ -306,6 +318,27 @@
   "integrity" "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew=="
   "resolved" "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   "version" "0.16.2"
+
+"@types/sizzle@*":
+  "integrity" "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ=="
+  "resolved" "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
+  "version" "2.3.3"
+
+"@uploadcare/client-suspense@^1.1.0":
+  "integrity" "sha512-ijI2KMHWe3KU5EwW5s2bbKl2APJHa8jAS/uLVvumhUzGv/R9eQk27CpuMl3sr3GpoevjGVl+MKu/tk4SfJVPXg=="
+  "resolved" "https://registry.npmjs.org/@uploadcare/client-suspense/-/client-suspense-1.1.0.tgz"
+  "version" "1.1.0"
+
+"@uploadcare/react-widget@^2.1.5":
+  "integrity" "sha512-dRJdw/w6FTEXgdk/9ey8UtT/C8tm1tG8kN0VziK1i0Zpfe3UREV+uMQ/9R+X8UiSUbmyzY6rybok/5m1SNeupg=="
+  "resolved" "https://registry.npmjs.org/@uploadcare/react-widget/-/react-widget-2.1.5.tgz"
+  "version" "2.1.5"
+  dependencies:
+    "@types/jquery" "^3.5.14"
+    "@types/jquery-deferred" "^0.3.0"
+    "@uploadcare/client-suspense" "^1.1.0"
+    "react-fast-compare" "^3.2.0"
+    "uploadcare-widget" "^3.17.2"
 
 "@vitejs/plugin-react@^2.0.0":
   "integrity" "sha512-zHkRR+X4zqEPNBbKV2FvWSxK7Q6crjMBVIAYroSU8Nbb4M3E5x4qOiLoqJBHtXgr27kfednXjkwr3lr8jS6Wrw=="
@@ -350,6 +383,11 @@
     "ansi-styles" "^3.2.1"
     "escape-string-regexp" "^1.0.5"
     "supports-color" "^5.3.0"
+
+"clsx@^1.1.1":
+  "integrity" "sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg=="
+  "resolved" "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
+  "version" "1.2.1"
 
 "color-convert@^1.9.0":
   "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
@@ -418,6 +456,11 @@
   "resolved" "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   "version" "3.1.1"
 
+"escape-html@^1.0.3":
+  "integrity" "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="
+  "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+  "version" "1.0.3"
+
 "escape-string-regexp@^1.0.5":
   "integrity" "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg=="
   "resolved" "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
@@ -463,6 +506,11 @@
   "version" "2.9.0"
   dependencies:
     "has" "^1.0.3"
+
+"jquery@^3.6.0":
+  "integrity" "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz"
+  "version" "3.6.0"
 
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
@@ -527,13 +575,18 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
-"react-dom@^18.2.0", "react-dom@>=16.8":
+"react-dom@^16.10.2 || ^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16", "react-dom@>=16.8":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
+
+"react-fast-compare@^3.2.0":
+  "integrity" "sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA=="
+  "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
+  "version" "3.2.0"
 
 "react-icons@^4.4.0":
   "integrity" "sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg=="
@@ -560,7 +613,14 @@
   dependencies:
     "history" "^5.2.0"
 
-"react@*", "react@^18.2.0", "react@>=16.8":
+"react-toastify@^9.0.8":
+  "integrity" "sha512-EwM+teWt49HSHx+67qI08yLAW1zAsBxCXLCsUfxHYv1W7/R3ZLhrqKalh7j+kjgPna1h5LQMSMwns4tB4ww2yQ=="
+  "resolved" "https://registry.npmjs.org/react-toastify/-/react-toastify-9.0.8.tgz"
+  "version" "9.0.8"
+  dependencies:
+    "clsx" "^1.1.1"
+
+"react@*", "react@^16.10.2 || ^17.0.0 || ^18.0.0", "react@^16.8.6 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16", "react@>=16.8":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -639,6 +699,14 @@
   dependencies:
     "escalade" "^3.1.1"
     "picocolors" "^1.0.0"
+
+"uploadcare-widget@^3.17.2":
+  "integrity" "sha512-p50Q7i2n/NrAR0HhxcX0dmPycAwyDdvjkUs/wAOb01awmM5QMluGtkb7/Uar/wjjjJRpThsc/4328KvezdeDtQ=="
+  "resolved" "https://registry.npmjs.org/uploadcare-widget/-/uploadcare-widget-3.18.0.tgz"
+  "version" "3.18.0"
+  dependencies:
+    "escape-html" "^1.0.3"
+    "jquery" "^3.6.0"
 
 "vite@^3.0.0":
   "integrity" "sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA=="
