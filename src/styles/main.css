@@ -15,3 +15,15 @@
     display: flex;
     justify-content: left;
 }
+
+.close-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+.close-icon:hover{
+    cursor: pointer;
+    color: red;
+}

@@ -7,8 +7,7 @@ import Inicio from './pages/inicio';
 import Registro from './pages/registro'
 import GeneradorCv from './pages/Generador-cv';
 import VistaCv from './pages/vistaCv';
-import {FileUploader} from './SubirFoto/index'
-import Main from './pages/main'
+
 
 
 
@@ -36,10 +35,9 @@ function App() {
              
             </Routes>
       </div>
+    
       <Inicio/>
-      <FileUploader/>
-      <Main/>
-     
+
     </Router>
   )
 }

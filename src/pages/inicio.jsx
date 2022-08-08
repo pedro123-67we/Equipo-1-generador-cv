@@ -1,9 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import ReactDom from "react-dom";
-import { createRoot } from 'react-dom/client';
-import { Widget } from "@uploadcare/react-widget";
-
 
 
 const Navbar = () => {
