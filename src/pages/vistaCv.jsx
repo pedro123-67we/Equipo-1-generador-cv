@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-export const VistaCv = () => {
+export const VistaCv = ({curriculum}) => {
 return (
     <div>
-        <h1>Aqui se vera el cv</h1>
+        <h1>{curriculum? curriculum.nombre :"..."}</h1>
     </div>
 )
 }
