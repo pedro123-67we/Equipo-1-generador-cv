@@ -14,9 +14,9 @@ const Login = () => {
                         <h1>Login</h1>
                     </div>
                         <label htmlFor="*">Email:</label>
-                        <input type={'email'} placeholder="Escribe tu email"/>
+                        <input className="inpu2" type={'email'} placeholder="Escribe tu email"/>
                         <label htmlFor="*">Password:</label>
-                        <input type={'password'}placeholder="Escribe tu contraseña" />
+                        <input className="inpu2" type={'password'}placeholder="Escribe tu contraseña" />
                         <button className='ingresar'>INGRESAR</button>
                         <Link to="/Registro">Registrate</Link>      
                     </div>
