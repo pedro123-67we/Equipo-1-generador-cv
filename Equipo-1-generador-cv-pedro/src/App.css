@@ -38,7 +38,7 @@ label{
   text-align: center;
   margin: 24px 0 12px 0;
 }
-input{
+.inpu2{
   background-color: #f8f5f5;
   text-decoration: none;
   width: 100%;
@@ -96,7 +96,7 @@ a{
 }
 
 .cont-generador{
-  background-color: red;
+  background-color: white;
   justify-content: center;
   border: 1px solid rgb(31, 27, 27);
   padding: 110px 80px;
@@ -106,13 +106,25 @@ a{
   left: 25%;
   right: 140px;
   margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font:bold 30px Helvetica;
+
   
 }
+  .cont-generador > div{
+    width: 50%;
+    font:bold 30px Helvetica;
+    
+  }
 .inpu1{
   border-radius: 5px;
   padding-top: 1px;
-  
-  
+  font:bold 30px Helvetica;
+  background-color: white;
+  color: #181313;
+  font-size: 30px;
 }
 
 .liena1{
@@ -128,6 +140,10 @@ a{
   background-color: rgb(44, 202, 30);
   box-shadow:1px 1px 1px 1px #9e9e9e;
   border: none;
+}
+.label1{
+  width: 10%;
+  color: #181313;
 }
 
 
