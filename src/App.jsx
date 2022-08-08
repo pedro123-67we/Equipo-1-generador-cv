@@ -25,7 +25,7 @@ function App() {
   //const [redes, setredes]= useState('');
   const [curriculum, setCurriculum]  =useState(null);
   function fetchCurriculum (){
-    fetch("http://localhost:4000/usuarios")
+    fetch("https://generador-cv.herokuapp.com/usuarios")
     .then((response) =>response.json())
     .then((data)=>{
         setCurriculum(data[0]);

@@ -8,7 +8,7 @@ import Cookies from 'universal-cookie';
 
 
 
-const baseUrl ='http://localhost:4000/usuarios/';
+const baseUrl ='https://generador-cv.herokuapp.com/usuarios';
 const cookies = new Cookies();
 
 class Login extends Component {

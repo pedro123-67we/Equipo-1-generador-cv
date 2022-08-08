@@ -2,6 +2,7 @@ import * as axios from 'axios';
 import React from 'react'
 import {useState } from 'react'
 import '../App'
+import {Link} from 'react-router-dom'
 import Swal from 'sweetalert2'
 
 export default function Registro () {
@@ -16,7 +17,7 @@ export default function Registro () {
     const registrar = async(e)=>{
         e.preventDefault()
         const newUser ={nombre,apellidos,email,password,telefono}
-        const respuesta = await axios.post('http://localhost:4000/usuarios',newUser)
+        const respuesta = await axios.post('https://generador-cv.herokuapp.com/usuarios',newUser)
         Swal.fire({
             icon: 'success',
             title: 'Your user saved',
@@ -46,6 +47,9 @@ return (
                     <input type="password"  required placeholder='Password'
                     onChange={e=>setPassword(e.target.value)}/>
                     <button type='submit'>Save</button>
+                    <Link to="/">Regresar</Link> 
+                    <div className="tabla">
+                    </div>
                 </div>
             </form>
         </div>

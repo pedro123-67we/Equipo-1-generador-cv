@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Navbar from "../components/navbar"
 
 export const Inicio = () => {
     return (
     <div>
-        <h1>Pagina de inicio agregar navbar</h1>
+ 
+        <h1>Bienvenido</h1>
+        <Navbar />
     </div>
     )
 }
