@@ -65,7 +65,7 @@ export default function GeneradorCv() {
                     <input className="inpu1" type={'text'} placeholder="Redes"
                     onChange={e=>setRedes(e.target.value)} />  
             </div> 
-            <button className="guardar" type='submit'>{t("save.save")}</button>           
+            <button className="guardar" type='submit'>{t("save.save")}</button>            
             </div>
     </form>
     <Navbar/>
