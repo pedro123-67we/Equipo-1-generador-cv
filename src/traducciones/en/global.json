@@ -28,5 +28,20 @@
     },
     "save":{
         "save": "Save"
+    },
+    "carr":{
+        "carr": "College career"
+    },
+    "exp":{
+        "exp":"Experience"
+    },
+    "edu":{
+        "edu":"Education"
+    },
+    "des":{
+        "des":"Drecription"
+    },
+    "rede":{
+        "rede":"Social Networks"
     }
 }

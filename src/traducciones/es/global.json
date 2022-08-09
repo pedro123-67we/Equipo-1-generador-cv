@@ -9,7 +9,7 @@
         "ingre":"Ingresar"
     },
     "reg":{
-        "reg":"registrarse "
+        "reg":"Registrarse "
     },
     "write":{
         "con":"Escribe tu contraseña"
@@ -28,6 +28,21 @@
     },
     "save":{
         "save": "Guardar"
+    },
+    "carr":{
+        "carr": "Carrera universitaria"
+    },
+    "exp":{
+        "exp":"Experiencia"
+    },
+    "edu":{
+        "edu":"Educacion"
+    },
+    "des":{
+        "des":"Descripcion"
+    },
+    "rede":{
+        "rede":"Redes sociales"
     }
     
 }

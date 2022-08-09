@@ -6,11 +6,11 @@ const Registro= ()=>{
     const [t, i18n] = useTranslation("global")
     return(
         <div className="registro">
-            <form >
+            <form > 
+                <div className="container">
                     <button onClick={() => i18n.changeLanguage("es")}>Esapañol</button>
                     <button onClick={() => i18n.changeLanguage("en")}>Ingles</button>
                     <br/> <br/>
-                <div className="container">
                     <label htmlFor="">{t("name.nom")}:</label>
                     <input type={'text'} />
                     <label htmlFor="">{t("apelli.appe")}:</label>
