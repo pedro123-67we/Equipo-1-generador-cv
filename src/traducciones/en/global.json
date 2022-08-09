@@ -1,0 +1,56 @@
+{
+    "email":{
+        "email": "Email "
+    },
+    "pass":{
+        "pass": "Password"
+    },
+    "ingre":{
+        "ingre":"Get into"
+    },
+    "reg":{
+        "reg":"Sing Up "
+    },
+    "write":{
+        "con":"Enter your password"
+    },
+    "wirtee":{
+        "ema":"Enter your email"
+    },
+    "name":{
+        "nom":"Name"
+    },
+    "apelli":{
+        "appe":"Surnames"
+    },
+    "cell":{
+        "phone":"Cell phone"
+    },
+    "save":{
+        "save": "Save"
+    },
+    "carr":{
+        "carr": "College career"
+    },
+    "exp":{
+        "exp":"Experience"
+    },
+    "edu":{
+        "edu":"Education"
+    },
+    "des":{
+        "des":"Drecription"
+    },
+    "rede":{
+        "rede":"Social Networks"
+    },
+    "inicio":{
+        "ini":"Welcome"
+    },
+    "ini":{
+        "ini":"Home"
+    },
+    "gen":{
+        "gen":"Genrador"
+   
+}

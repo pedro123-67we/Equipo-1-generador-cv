@@ -1,0 +1,57 @@
+{
+    "email":{
+        "email": "Corrreo "
+    },
+    "pass":{
+        "pass": "Contraseña"
+    },
+    "ingre":{
+        "ingre":"Ingresar"
+    },
+    "reg":{
+        "reg":"Registrarse "
+    },
+    "write":{
+        "con":"Escribe tu contraseña"
+    },
+    "wirtee":{
+        "ema":"Escribe tu correo"
+    },
+    "name":{
+        "nom":"Nombre"
+    },
+    "apelli":{
+        "appe":"Apellidos"
+    },
+    "cell":{
+        "phone":"Telefono"
+    },
+    "save":{
+        "save": "Guardar"
+    },
+    "carr":{
+        "carr": "Carrera universitaria"
+    },
+    "exp":{
+        "exp":"Experiencia"
+    },
+    "edu":{
+        "edu":"Educacion"
+    },
+    "des":{
+        "des":"Descripcion"
+    },
+    "rede":{
+        "rede":"Redes sociales"
+    },
+    "inicio":{
+        "ini":"Bienvenido"
+    },
+    "ini":{
+        "ini":"Inicio"
+    },
+    "gen":{
+        "gen":"Generator"
+    }
+    
+}
