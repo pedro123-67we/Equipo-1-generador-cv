@@ -63,7 +63,7 @@ class Login extends Component {
     render(){
         const [t, i18n] = useTranslation("global")
     return (
-        
+    
 <div>
     <form onSubmit={this.manejadorSubmit}>
     <div className="login">

@@ -50,7 +50,7 @@ export default function GeneradorCv() {
                     <input className="inpu1" type={'text'} placeholder="Experiencia"
                     onChange={e=>setExperiencia(e.target.value)} />
                 </div>
-            
+             
             <div className="label1">
                     <label htmlFor="">{t("cell.phone")}:</label>
                     <input className="inpu1" type={'tel'} placeholder="telefono"

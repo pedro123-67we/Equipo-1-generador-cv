@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from "../components/navbar"
 import { useTranslation } from 'react-i18next'
 
-
 export const Inicio = () => {
     const [t, i18n] = useTranslation("global")
     return (
