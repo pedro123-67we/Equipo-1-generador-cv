@@ -10,6 +10,6 @@ export const Inicio = () => {
         <h1>{t("inicio.ini")}</h1>
         <Navbar />
     </div>
-    )
+    ) 
 }
 export default Inicio

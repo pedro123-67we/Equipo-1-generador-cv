@@ -64,7 +64,7 @@ export default function GeneradorCv() {
                     <label htmlFor="">{t("rede.rede")}:</label>
                     <input className="inpu1" type={'text'} placeholder="Redes"
                     onChange={e=>setRedes(e.target.value)} />  
-            </div>
+            </div> 
             <button className="guardar" type='submit'>{t("save.save")}</button>           
             </div>
     </form>
